@@ -2,3 +2,7 @@ what.py
 .env
 models/Mistral-7B.gguf
 __pycache__\__init__.cpython-312.pyc
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
