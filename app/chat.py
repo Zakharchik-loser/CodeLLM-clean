@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from app.shcema import ChatResponse, ChatRequest
 from app.lang_graph import graph
 
-router = APIRouter(prefix="/chat", tags=["chat"])
+router = APIRouter(prefix="/chat", tags=["Different types of model"])
 
 
 
