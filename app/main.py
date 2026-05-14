@@ -174,7 +174,7 @@ class Model_config(BaseModel):
     sampler_name: str = "DPM++ 2M"
 
 
-@app.post("/generate-image")
+@app.post("/generate-image",tags=["Generate an image with a model"])
 def generate_image(req: Model_config):
     images = {
         "prompt":req.prompt,
